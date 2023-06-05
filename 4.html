@@ -14,26 +14,57 @@
 		<li><a href="5.html">비전</a></li>
 	</ol>
 	<h1>경쟁률</h1>
-	<li><p>모집입원: 지원인원 = <span class="ratio">2658:33769</span></p>
+	<li>입학 경쟁률의 비율 = 13.9:1</li>
+	<li><div class="bar-graph">
+    <div class="bar" style="width: 10%;"></div>
+</div>
+
+<p>모집: 지원 = 2658:33769</p>
 
 <style>
-    .ratio {
-        display: inline-block;
-        padding: 0 5px;
-        border: 1px solid black;
+    .bar-graph {
+        width: 200px;
+        height: 20px;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
         border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .bar {
+        height: 100%;
+        background-color: #007bff;
     }
 </style>
 </li>
         <li>기숙사 경쟁률의 비율=1.1:1</li>
-	<li><p>수용: 지원 = <span class="ratio">2442:2689</span></p>
+	<li><div class="bar-graph">
+    <div class="bar acceptance-bar" style="width: 50%;"></div>
+    <div class="bar support-bar" style="width: 70%;"></div>
+</div>
+
+<p>수용: 지원 = 2442:2689</p>
 
 <style>
-    .ratio {
-        display: inline-block;
-        padding: 0 5px;
-        border: 1px solid black;
+    .bar-graph {
+        width: 300px;
+        height: 30px;
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
         border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .bar {
+        height: 100%;
+    }
+
+    .acceptance-bar {
+        background-color: #007bff;
+    }
+
+    .support-bar {
+        background-color: #28a745;
     }
 </style>
 </li>
